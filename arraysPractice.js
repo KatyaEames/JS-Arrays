@@ -4,8 +4,10 @@
 var arr = [10,20,30];
 //Create a function named 'first' that is given 'arr' as the argument and  returns the first item the given array.
 
-  //Code Here
-
+var first = function(arr) {
+  return arr[0];
+};
+first(arr);
 
 //Next problem
 
@@ -14,17 +16,22 @@ var arr = [10,20,30];
 var arr = [40,50,60];
 //Create a function named 'last' that is given 'arr' as the argument and returns the last item the given array.
 
-
-  //Code Here
+var last = function() {
+  return arr[2];
+};
+last(arr);
 
 
 //Next Problem
 
 
 var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
-//Create a function named 'looper' that is given family as it's only argument, loops through the given array, and alerts every item in the array.
+//Create a function named 'looper' that is given family as it's only argument, loops through the given array, 
+//and alerts every item in the array.
 
-  //Code Here
+var looper = function(family) {
+  
+};
 
 
 //Next problem
@@ -32,7 +39,8 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 
 
 var letters = ['A', 'B', 'C', 'D', 'E'];
-//Write a function called reversedLooper that is given letters as it's only argument and loops through the given array backwards alerting every item in the array starting at the end.
+//Write a function called reversedLooper that is given letters as it's only argument and loops through the 
+//given array backwards alerting every item in the array starting at the end.
 
   //Code Here
 
@@ -41,7 +49,8 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 
 var nums = [1,2,3,6,22,98,45,23,22,12];
-//Write a function named evenFinder that is given nums as it's only argument and removes all values that aren't even from the given array.
+//Write a function named evenFinder that is given nums as it's only argument and removes all values that 
+//aren't even from the given array.
 
   //Code Here
 
@@ -53,7 +62,8 @@ var nums = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 var evens = [];
 var odds = []
 //Write a function called divider that is given three arguments, nums, evens, and odds.
-//Have divider return an Array with the first item in the array being the evens array (all the even values from nums) and the second item in the Array being the odds array(all the odd values from nums).
+//Have divider return an Array with the first item in the array being the evens array (all the even values 
+//from nums) and the second item in the Array being the odds array(all the odd values from nums).
 
 
 
@@ -67,7 +77,9 @@ var getRandomArbitrary = function() {
   return Math.floor(Math.random() * (30 - 0) + 0);
 }
 var numbers = [0,3,4,5,6,7,9,14,17,24,25,26,29,30];
-//Above your given a function that will return a random number between 0 and 30, and an array full or numbers. Your job is to write a function named finder that will get a random number, then loop through the array to see if that random number is in the array. If it is, return true, if it's not, return false
+//Above your given a function that will return a random number between 0 and 30, and an array full or numbers. 
+//Your job is to write a function named finder that will get a random number, then loop through the array to see 
+//if that random number is in the array. If it is, return true, if it's not, return false
 
   //Code Here
 
@@ -77,9 +89,13 @@ var numbers = [0,3,4,5,6,7,9,14,17,24,25,26,29,30];
 
 
 var str = 'this is my sentence';
-//Write a function called reverse that takes is given str as it's only argument and returns that string after it's been reversed
+//Write a function called reverse that takes is given str as it's only argument and returns that string after 
+//it's been reversed
 
-  //Code Here
+var reverse = function() {
+  return str.split('').reverse.join;
+};
+reverse(str);
 
 
 //Next Problem
@@ -88,12 +104,13 @@ var str = 'this is my sentence';
 var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 /*
   Here we're going to write a function that mimics going shopping and checking things off of our grocery list,
-  and adding new items to our list. Write a function called removeItem that is given two arguments, the first is myGroceryList, and the
-  second is an item to remove from myGroceryList. If the second argument (or the item to add or remove) matches an item in myGroceryList,
-  remove that item from the your grocery list and return the new, updated grocery list. Once you do that,
-  write another function called addItem that is given two arguments, the first is myGroceryList
-  and the second is an item to add to your grocery list. In addItem add the item you passed in to
-  myGroceryList then return the new, updated grocery list.
+  and adding new items to our list. Write a function called removeItem that is given two arguments, the first 
+  is myGroceryList, and the second is an item to remove from myGroceryList. If the second argument (or the item 
+  to add or remove) matches an item in myGroceryList, remove that item from the your grocery list and return 
+  the new, updated grocery list. 
+  Once you do that, write another function called addItem that is given two arguments, the first is myGroceryList 
+  and the second is an item to add to your grocery list. In addItem add the item you passed in to myGroceryList 
+  then return the new, updated grocery list.
 */
 
   //Code Here
@@ -107,7 +124,8 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 
 
 
-//Write a function called maker that creates an array, fills that array with numbers from 1 to 215, then returns the array.
+//Write a function called maker that creates an array, fills that array with numbers from 1 to 215, then returns 
+//the array.
 
   //Code Here
 
