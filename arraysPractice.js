@@ -30,9 +30,11 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 //and alerts every item in the array.
 
 var looper = function(family) {
-  
+  for(var i = 0; i < family.length; i++) {
+    alert(family[i]);
+  };
 };
-
+looper(family);
 
 //Next problem
 
@@ -42,7 +44,12 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 //Write a function called reversedLooper that is given letters as it's only argument and loops through the 
 //given array backwards alerting every item in the array starting at the end.
 
-  //Code Here
+var reversedLooper = function(letters) {
+  for(var i = letters.length - 1; i > -1; i--) {
+    alert(letters[i]);
+  };
+};
+reversedLooper(letters);
 
 
 //Next Problem
@@ -52,8 +59,16 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 //Write a function named evenFinder that is given nums as it's only argument and removes all values that 
 //aren't even from the given array.
 
-  //Code Here
-
+var evenFinder = function(nums) {
+  for(var i = 0; i < nums.length - 1; i++) {
+    if (i % 2) {
+      return i;
+    } else {
+      
+    };
+  };
+};
+evenFinder(nums);
 
 //Next problem
 
@@ -67,7 +82,6 @@ var odds = []
 
 
 
-  //Code Here
 
 
 //Next Problem
